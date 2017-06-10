@@ -16,6 +16,7 @@
 		154F23AA1EEB997400026361 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154F23A91EEB997400026361 /* HomeViewController.swift */; };
 		154F23AC1EEB9A7C00026361 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154F23AB1EEB9A7C00026361 /* NextViewController.swift */; };
 		154F23B01EEB9B4100026361 /* XJHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 154F23AF1EEB9B4100026361 /* XJHNavigationController.m */; };
+		154F23B21EEBA4D600026361 /* rr.gif in Resources */ = {isa = PBXBuildFile; fileRef = 154F23B11EEBA4D600026361 /* rr.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		154F23AD1EEB9B4100026361 /* BottomNavDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BottomNavDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		154F23AE1EEB9B4100026361 /* XJHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJHNavigationController.h; sourceTree = "<group>"; };
 		154F23AF1EEB9B4100026361 /* XJHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJHNavigationController.m; sourceTree = "<group>"; };
+		154F23B11EEBA4D600026361 /* rr.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rr.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		154F236B1EEB96CA00026361 = {
 			isa = PBXGroup;
 			children = (
+				154F23B11EEBA4D600026361 /* rr.gif */,
 				154F23761EEB96CA00026361 /* BottomNavDemo */,
 				154F238B1EEB96CA00026361 /* BottomNavDemoTests */,
 				154F23961EEB96CA00026361 /* BottomNavDemoUITests */,
@@ -246,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				154F23B21EEBA4D600026361 /* rr.gif in Resources */,
 				154F23821EEB96CA00026361 /* LaunchScreen.storyboard in Resources */,
 				154F237F1EEB96CA00026361 /* Assets.xcassets in Resources */,
 			);
@@ -526,6 +530,7 @@
 				154F239E1EEB96CA00026361 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		154F239F1EEB96CA00026361 /* Build configuration list for PBXNativeTarget "BottomNavDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +539,7 @@
 				154F23A11EEB96CA00026361 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		154F23A21EEB96CA00026361 /* Build configuration list for PBXNativeTarget "BottomNavDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +548,7 @@
 				154F23A41EEB96CA00026361 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
